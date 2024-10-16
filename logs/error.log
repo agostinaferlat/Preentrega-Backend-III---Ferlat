@@ -1,0 +1,51 @@
+2024-10-15 01:45:52 [[31merror[39m]: undefined this.userServices.getUserByEmail is not a function
+2024-10-15 01:52:47 [[31merror[39m]: undefined this.userServices.getUserByEmail is not a function
+2024-10-15 02:13:30 [[31merror[39m]: undefined jwt must be provided
+2024-10-15 02:14:20 [[31merror[39m]: undefined Expected "payload" to be a plain object.
+2024-10-15 02:21:55 [[31merror[39m]: undefined Expected "payload" to be a plain object.
+2024-10-15 02:22:34 [[31merror[39m]: undefined Expected "payload" to be a plain object.
+2024-10-15 02:31:07 [[31merror[39m]: undefined jwt must be provided
+2024-10-15 02:33:00 [[31merror[39m]: undefined Expected "payload" to be a plain object.
+2024-10-15 02:35:35 [[31merror[39m]: undefined invalid expiresIn option for string payload
+2024-10-15 02:50:45 [[31merror[39m]: [GET] api/mocks/mockingusers Users validation failed: password: Path `password` is required., email: Path `email` is required., last_name: Path `last_name` is required., first_name: Path `first_name` is required.
+2024-10-15 02:51:12 [[31merror[39m]: [GET] api/mocks/mockingusers Users validation failed: password: Path `password` is required., email: Path `email` is required., last_name: Path `last_name` is required., first_name: Path `first_name` is required.
+2024-10-15 02:51:40 [[31merror[39m]: [GET] api/mocks/mockingusers Users validation failed: password: Path `password` is required., email: Path `email` is required., last_name: Path `last_name` is required., first_name: Path `first_name` is required.
+2024-10-15 02:52:09 [[31merror[39m]: [GET] api/mocks/mockingusers Users validation failed: password: Path `password` is required., email: Path `email` is required., last_name: Path `last_name` is required., first_name: Path `first_name` is required.
+2024-10-15 02:52:54 [[31merror[39m]: [GET] api/mocks/mockingusers Users validation failed: password: Path `password` is required., email: Path `email` is required., last_name: Path `last_name` is required., first_name: Path `first_name` is required.
+2024-10-15 02:55:29 [[31merror[39m]: [GET] api/mocks/mockingusers Users validation failed: password: Path `password` is required., email: Path `email` is required., last_name: Path `last_name` is required., first_name: Path `first_name` is required.
+2024-10-15 03:10:29 [[31merror[39m]: [GET] api/mocks/mockingusers Users validation failed: password: Path `password` is required., email: Path `email` is required., last_name: Path `last_name` is required., first_name: Path `first_name` is required.
+2024-10-15 20:57:09 [[31merror[39m]: undefined specie is not defined
+2024-10-15 20:57:53 [[31merror[39m]: undefined specie is not defined
+2024-10-15 20:58:51 [[31merror[39m]: undefined specie is not defined
+2024-10-15 20:59:36 [[31merror[39m]: undefined specie is not defined
+2024-10-15 21:12:52 [[31merror[39m]: undefined Unexpected token 'C', ..." "image": C:\Users\A"... is not valid JSON
+2024-10-15 21:22:31 [[31merror[39m]: undefined petsService is not defined
+2024-10-15 21:24:10 [[31merror[39m]: undefined petService is not defined
+2024-10-15 21:24:51 [[31merror[39m]: undefined petService is not defined
+2024-10-15 21:25:24 [[31merror[39m]: undefined petService is not defined
+2024-10-15 21:39:13 [[31merror[39m]: undefined Nuestro error
+2024-10-15 21:59:21 [[31merror[39m]: undefined usersService is not defined
+2024-10-15 22:01:08 [[31merror[39m]: undefined usersService is not defined
+2024-10-15 22:09:50 [[31merror[39m]: undefined this.usersService.getUserById is not a function
+2024-10-15 22:10:56 [[31merror[39m]: undefined Cannot read properties of undefined (reading 'getBy')
+2024-10-15 22:11:29 [[31merror[39m]: undefined Cannot read properties of undefined (reading 'getById')
+2024-10-15 22:20:34 [[31merror[39m]: _id Cast to ObjectId failed for value "culo" (type string) at path "_id" for model "Pets"
+2024-10-15 22:20:46 [[31merror[39m]: undefined Pet id [object Object] not found
+2024-10-15 22:21:48 [[31merror[39m]: undefined pid is not defined
+2024-10-15 22:23:33 [[31merror[39m]: _id Cast to ObjectId failed for value "670e01fcc3c6ea9fab8b39j8" (type string) at path "_id" for model "Pets"
+2024-10-15 22:23:44 [[31merror[39m]: _id Cast to ObjectId failed for value "670e01fcc3c6ea9fab8b39jd" (type string) at path "_id" for model "Pets"
+2024-10-15 22:23:53 [[31merror[39m]: _id Cast to ObjectId failed for value "670e01fcc3c6ea9fab8b39jd" (type string) at path "_id" for model "Pets"
+2024-10-15 22:24:03 [[31merror[39m]: _id Cast to ObjectId failed for value "670e01fcc3c6ea9fab8b39v0" (type string) at path "_id" for model "Pets"
+2024-10-15 22:25:52 [[31merror[39m]: undefined pid is not defined
+2024-10-15 22:26:21 [[31merror[39m]: undefined pid is not defined
+2024-10-15 22:26:45 [[31merror[39m]: undefined Pet id [object Object] not found
+2024-10-15 22:27:31 [[31merror[39m]: undefined A pet with that ID doesn't exist
+2024-10-15 22:28:33 [[31merror[39m]: undefined Parameter "filter" to findOne() must be an object, got "users" (type string)
+2024-10-15 22:28:38 [[31merror[39m]: undefined Parameter "filter" to findOne() must be an object, got "670f13277df08b6e79064b32" (type string)
+2024-10-15 22:29:37 [[31merror[39m]: undefined A pet with the ID doesn't exist
+2024-10-15 22:30:36 [[31merror[39m]: undefined Parameter "filter" to findOne() must be an object, got "670f13277df08b6e79064b32" (type string)
+2024-10-15 22:35:03 [[31merror[39m]: undefined A pet with the ID [object Object] doesn't exist
+2024-10-15 22:36:43 [[31merror[39m]: undefined User id 670e08fc5acf6b61034f9207 not found
+2024-10-15 22:36:52 [[31merror[39m]: undefined A pet with the ID [object Object] doesn't exist
+2024-10-15 22:47:33 [[31merror[39m]: undefined A pet with the ID 670e01fcc3c6ea9fab8b3908 doesn't exist
+2024-10-15 22:49:49 [[31merror[39m]: undefined A pet with the ID 670e01fcc3c6ea9fab8b3908 doesn't exist
