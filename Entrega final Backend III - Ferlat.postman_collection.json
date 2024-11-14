@@ -1,0 +1,330 @@
+{
+	"info": {
+		"_postman_id": "6a122d78-0060-4b2a-aca5-976d4b917f43",
+		"name": "Entrega final Backend III - Ferlat",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "35043062"
+	},
+	"item": [
+		{
+			"name": "Session",
+			"item": [
+				{
+					"name": "Register",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"first_name\": \"Tatiana\",\r\n    \"last_name\": \"Rudychenka\",\r\n    \"email\": \"tatiru@gmail.com\",\r\n    \"password\": \"motherRussia\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:8080/api/sessions/register"
+					},
+					"response": []
+				},
+				{
+					"name": "Login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"tatiru@gmail.com\",\r\n    \"password\": \"motherRussia\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:8080/api/sessions/login"
+					},
+					"response": []
+				},
+				{
+					"name": "Current",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:8080/api/sessions/current"
+					},
+					"response": []
+				},
+				{
+					"name": "Unprotected Login",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"tatiru@gmail.com\",\r\n    \"password\": \"motherRussia\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:8080/api/sessions/unprotectedLogin"
+					},
+					"response": []
+				},
+				{
+					"name": "Unprotected Current",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"tatiru@gmail.com\",\r\n    \"password\": \"motherRussia\"\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:8080/api/sessions/unprotectedCurrent"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Adoption",
+			"item": [
+				{
+					"name": "Get All Adoptions",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:8080/api/adoptions"
+					},
+					"response": []
+				},
+				{
+					"name": "Get Adoption",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:8080/api/adoptions/670f13277df08b6e79064b3j"
+					},
+					"response": []
+				},
+				{
+					"name": "Create Adoption",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": "http://localhost:8080/api/adoptions/670df92da0c99a98003cddb0/670e0237fba5ec784eb64a89"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Pets",
+			"item": [
+				{
+					"name": "Get All Pets",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:8080/api/pets"
+					},
+					"response": []
+				},
+				{
+					"name": "Create Pet",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Nanda\",\r\n    \"species\": \"Labradora enana\",\r\n    \"birthDate\": \"03/08/2018\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:8080/api/pets"
+					},
+					"response": []
+				},
+				{
+					"name": "Create Pet With Image",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "name",
+									"value": "Iván",
+									"type": "text"
+								},
+								{
+									"key": "species",
+									"value": "Foca gorda",
+									"type": "text"
+								},
+								{
+									"key": "birthDate",
+									"value": "06/26/2024",
+									"type": "text"
+								},
+								{
+									"key": "image",
+									"type": "file",
+									"src": "/C:/Users/Agostina/Downloads/foqui.jpg"
+								}
+							]
+						},
+						"url": "http://localhost:8080/api/pets/withimage"
+					},
+					"response": []
+				},
+				{
+					"name": "Update Pet",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Nanda\",\r\n    \"species\": \"Labradora enana\",\r\n    \"birthDate\": \"08/03/2018\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:8080/api/pets/670f0204fc17036e5276e8c9"
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Pet",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:8080/api/pets/670e0237fba5ec784eb64abc"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Users",
+			"item": [
+				{
+					"name": "Get All Users",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:8080/api/users"
+					},
+					"response": []
+				},
+				{
+					"name": "Get User",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:8080/api/users/670df92da0c99a98003cddb0"
+					},
+					"response": []
+				},
+				{
+					"name": "Update User",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"first_name\":\"Callum\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:8080/api/users/670e08fc5acf6b61034f9242"
+					},
+					"response": []
+				},
+				{
+					"name": "Delete User",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": "http://localhost:8080/api/users/670e08fc5acf6b61034f9246"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Mock",
+			"item": [
+				{
+					"name": "Mocking Pets",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:8080/api/mocks/mockingpets"
+					},
+					"response": []
+				},
+				{
+					"name": "Mocking Users",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:8080/api/mocks/mockingusers"
+					},
+					"response": []
+				},
+				{
+					"name": "Generate Data",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:8080/api/mocks/generateData/10/10"
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

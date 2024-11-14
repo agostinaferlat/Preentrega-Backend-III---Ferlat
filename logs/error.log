@@ -49,3 +49,54 @@
 2024-10-15 22:36:52 [[31merror[39m]: undefined A pet with the ID [object Object] doesn't exist
 2024-10-15 22:47:33 [[31merror[39m]: undefined A pet with the ID 670e01fcc3c6ea9fab8b3908 doesn't exist
 2024-10-15 22:49:49 [[31merror[39m]: undefined A pet with the ID 670e01fcc3c6ea9fab8b3908 doesn't exist
+2024-11-10 22:25:45 [[31merror[39m]: undefined res.status(...) is not a function
+2024-11-10 22:26:40 [[31merror[39m]: undefined res.status(...) is not a function
+2024-11-11 01:46:57 [[31merror[39m]: _id Cast to ObjectId failed for value "nonexistentadoptionid" (type string) at path "_id" for model "Adoptions"
+2024-11-11 01:52:14 [[31merror[39m]: _id Cast to ObjectId failed for value "nonexistentadoptionid" (type string) at path "_id" for model "Adoptions"
+2024-11-11 01:54:21 [[31merror[39m]: _id Cast to ObjectId failed for value "nonexistentadoptionid" (type string) at path "_id" for model "Adoptions"
+2024-11-11 01:56:42 [[31merror[39m]: _id Cast to ObjectId failed for value "nonexistentadoptionid" (type string) at path "_id" for model "Adoptions"
+2024-11-11 02:05:26 [[31merror[39m]: _id Cast to ObjectId failed for value "nonexistentadoptionid" (type string) at path "_id" for model "Adoptions"
+2024-11-11 02:08:59 [[31merror[39m]: _id Cast to ObjectId failed for value "nonexistentadoptionid" (type string) at path "_id" for model "Adoptions"
+2024-11-11 02:11:21 [[31merror[39m]: _id Cast to ObjectId failed for value "nonexistentadoptionid" (type string) at path "_id" for model "Adoptions"
+2024-11-11 02:15:24 [[31merror[39m]: _id Cast to ObjectId failed for value "nonexistentadoptionid" (type string) at path "_id" for model "Adoptions"
+2024-11-11 02:42:43 [[31merror[39m]: _id Cast to ObjectId failed for value "673199531434e80d0305515a}" (type string) at path "_id" for model "Pets"
+2024-11-11 02:43:52 [[31merror[39m]: _id Cast to ObjectId failed for value "673199981434e80d0305516d}" (type string) at path "_id" for model "Pets"
+2024-11-11 02:52:19 [[31merror[39m]: _id Cast to ObjectId failed for value "67319b937767b7af5d0a2ad2}" (type string) at path "_id" for model "Pets"
+2024-11-11 02:53:58 [[31merror[39m]: _id Cast to ObjectId failed for value "67319bf67767b7af5d0a2ae5}" (type string) at path "_id" for model "Pets"
+2024-11-11 02:53:58 [[31merror[39m]: undefined customError is not defined
+2024-11-11 02:53:58 [[31merror[39m]: _id Cast to ObjectId failed for value "nonexistentadoptionid" (type string) at path "_id" for model "Adoptions"
+2024-11-11 03:02:25 [[31merror[39m]: _id Cast to ObjectId failed for value "67319df17767b7af5d0a2afa}" (type string) at path "_id" for model "Pets"
+2024-11-11 03:02:25 [[31merror[39m]: _id Cast to ObjectId failed for value "67319df17767b7af5d0a2afa}" (type string) at path "_id" for model "Pets"
+2024-11-11 03:02:25 [[31merror[39m]: undefined customError is not defined
+2024-11-11 03:02:25 [[31merror[39m]: _id Cast to ObjectId failed for value "nonexistentadoptionid" (type string) at path "_id" for model "Adoptions"
+2024-11-11 03:03:34 [[31merror[39m]: _id Cast to ObjectId failed for value "67319e36292a1cbcf3713606}" (type string) at path "_id" for model "Pets"
+2024-11-11 03:03:34 [[31merror[39m]: _id Cast to ObjectId failed for value "67319e36292a1cbcf3713606}" (type string) at path "_id" for model "Pets"
+2024-11-11 03:03:34 [[31merror[39m]: undefined customError is not defined
+2024-11-11 03:03:34 [[31merror[39m]: _id Cast to ObjectId failed for value "nonexistentadoptionid" (type string) at path "_id" for model "Adoptions"
+2024-11-11 03:06:17 [[31merror[39m]: _id Cast to ObjectId failed for value "67319ed9292a1cbcf371361c}" (type string) at path "_id" for model "Pets"
+2024-11-11 03:06:17 [[31merror[39m]: undefined customError is not defined
+2024-11-11 03:06:17 [[31merror[39m]: _id Cast to ObjectId failed for value "nonexistentadoptionid" (type string) at path "_id" for model "Adoptions"
+2024-11-11 03:08:04 [[31merror[39m]: _id Cast to ObjectId failed for value "67319f44292a1cbcf3713637}" (type string) at path "_id" for model "Pets"
+2024-11-11 03:08:04 [[31merror[39m]: undefined customError is not defined
+2024-11-11 03:08:04 [[31merror[39m]: _id Cast to ObjectId failed for value "nonexistentadoptionid" (type string) at path "_id" for model "Adoptions"
+2024-11-11 03:09:25 [[31merror[39m]: _id Cast to ObjectId failed for value "67319f94292a1cbcf3713652}" (type string) at path "_id" for model "Pets"
+2024-11-11 03:09:25 [[31merror[39m]: undefined customError is not defined
+2024-11-11 03:09:25 [[31merror[39m]: _id Cast to ObjectId failed for value "nonexistentadoptionid" (type string) at path "_id" for model "Adoptions"
+2024-11-11 03:14:52 [[31merror[39m]: undefined customError is not defined
+2024-11-11 03:14:52 [[31merror[39m]: _id Cast to ObjectId failed for value "nonexistentadoptionid" (type string) at path "_id" for model "Adoptions"
+2024-11-11 03:15:31 [[31merror[39m]: undefined customError is not defined
+2024-11-11 03:15:31 [[31merror[39m]: _id Cast to ObjectId failed for value "nonexistentadoptionid" (type string) at path "_id" for model "Adoptions"
+2024-11-11 03:17:00 [[31merror[39m]: undefined customError is not defined
+2024-11-11 03:17:00 [[31merror[39m]: _id Cast to ObjectId failed for value "nonexistentadoptionid" (type string) at path "_id" for model "Adoptions"
+2024-11-11 03:19:01 [[31merror[39m]: _id Cast to ObjectId failed for value "nonexistentadoptionid" (type string) at path "_id" for model "Adoptions"
+2024-11-11 03:20:12 [[31merror[39m]: _id Cast to ObjectId failed for value "nonexistentadoptionid" (type string) at path "_id" for model "Adoptions"
+2024-11-11 03:22:50 [[31merror[39m]: _id Cast to ObjectId failed for value "nonexistentadoptionid" (type string) at path "_id" for model "Adoptions"
+2024-11-11 03:28:09 [[31merror[39m]: _id Cast to ObjectId failed for value "nonexistentadoptionid" (type string) at path "_id" for model "Adoptions"
+2024-11-11 03:31:13 [[31merror[39m]: _id Cast to ObjectId failed for value "nonexistentadoptionid" (type string) at path "_id" for model "Adoptions"
+2024-11-11 03:38:19 [[31merror[39m]: _id Cast to ObjectId failed for value "nonexistentadoptionid" (type string) at path "_id" for model "Adoptions"
+2024-11-12 21:21:59 [[31merror[39m]: _id Cast to ObjectId failed for value "7g8e9f4s2f1v6x5o8a3d7j52" (type string) at path "_id" for model "Pets"
+2024-11-12 21:29:07 [[31merror[39m]: undefined Expected double-quoted property name in JSON at position 27
+2024-11-12 21:29:38 [[31merror[39m]: undefined Expected double-quoted property name in JSON at position 27
+2024-11-14 01:42:34 [[31merror[39m]: undefined Expected double-quoted property name in JSON at position 26
+2024-11-14 03:14:56 [[31merror[39m]: undefined Expected ',' or '}' after property value in JSON at position 20
+2024-11-14 03:14:57 [[31merror[39m]: undefined Expected ',' or '}' after property value in JSON at position 20

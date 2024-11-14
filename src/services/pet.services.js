@@ -11,7 +11,6 @@ export class PetServices {
   }
   async getById(id) {
     const pet = await this.petDao.getBy(id);
-    if (!pet) throw customError.notFoundError(`A pet with the ID ${id} doesn't exist`);
     return pet;
   }
 
@@ -25,12 +24,24 @@ export class PetServices {
   }
 
   async update(id, data) {
-    const pet = await this.petDao.update(id, data);
-    return pet;
+
+    const updatedPet = await this.petDao.update(id, data);
+
+    if (!updatedPet) {
+      return null;
+    }
+
+    return updatedPet;
   }
 
   async remove(id) {
+    const pet = await this.petDao.getBy(id);
+  
+    if (!pet) {
+      return null;
+    }
+
     await this.petDao.delete(id);
-    return "ok";
+    return true;
   }
 }

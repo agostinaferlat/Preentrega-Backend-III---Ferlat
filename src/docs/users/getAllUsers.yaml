@@ -1,0 +1,51 @@
+paths:
+  /api/users:
+    get:
+      summary: Get All Users
+      description:  Gets all users from database.
+      tags:
+        - Users
+      responses:
+        200:
+          description: Returns an array of users   
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Users"
+
+components:
+  schemas:
+    Users:
+      type: array
+      items:
+        type: object
+        properties:
+          _id: 
+            type: string
+            description: User ID (MongoDB ObjectId)
+          first_name:
+            type: string
+            description: User's name
+          last_name:
+            type: string
+            description: User's last name
+          email:
+            type: string
+            description: User's email
+          role:
+            type: string
+            description: User role
+          pets:
+            type: array
+            items:
+              type: string
+              description: Pet ID (MongoDB ObjectId)
+      example:
+        _id: "64f96d11d3415f6c7b8fba9e"
+        first_name: "Hermione"
+        last_name: "Granger"
+        email: "hermione.granger@hogwarts.edu"
+        role: "user"
+        pets:
+          - "64f96d11d3415f6c7b8fba9f"
+          - "64f96d11d3415f6c7b8fbaa0"     

@@ -112,3 +112,286 @@
 2024-10-15 22:47:29 [[32minfo[39m]: Listening on 8080
 2024-10-15 22:47:33 [[31merror[39m]: undefined A pet with the ID 670e01fcc3c6ea9fab8b3908 doesn't exist
 2024-10-15 22:49:49 [[31merror[39m]: undefined A pet with the ID 670e01fcc3c6ea9fab8b3908 doesn't exist
+2024-11-10 20:03:44 [[32minfo[39m]: Listening on 8080
+2024-11-10 20:03:46 [[32minfo[39m]: Listening on 8080
+2024-11-10 20:05:25 [[32minfo[39m]: Listening on 8080
+2024-11-10 20:16:19 [[32minfo[39m]: Listening on 8080
+2024-11-10 20:19:14 [[32minfo[39m]: Listening on 8080
+2024-11-10 20:20:10 [[32minfo[39m]: Listening on 8080
+2024-11-10 20:24:52 [[32minfo[39m]: Listening on 8080
+2024-11-10 20:30:04 [[32minfo[39m]: Listening on 8080
+2024-11-10 20:49:31 [[32minfo[39m]: Listening on 8080
+2024-11-10 20:49:44 [[32minfo[39m]: Listening on 8080
+2024-11-10 20:50:51 [[32minfo[39m]: Listening on 8080
+2024-11-10 21:07:56 [[32minfo[39m]: Listening on 8080
+2024-11-10 21:07:57 [[32minfo[39m]: Listening on 8080
+2024-11-10 21:13:15 [[32minfo[39m]: Listening on 8080
+2024-11-10 21:15:06 [[32minfo[39m]: Listening on 8080
+2024-11-10 21:20:25 [[32minfo[39m]: Listening on 8080
+2024-11-10 21:20:39 [[32minfo[39m]: Listening on 8080
+2024-11-10 21:22:18 [[32minfo[39m]: Listening on 8080
+2024-11-10 21:23:44 [[32minfo[39m]: Listening on 8080
+2024-11-10 21:40:47 [[32minfo[39m]: Listening on 8080
+2024-11-10 21:40:49 [[32minfo[39m]: Listening on 8080
+2024-11-10 21:59:22 [[32minfo[39m]: Listening on 8080
+2024-11-10 22:09:34 [[32minfo[39m]: Listening on 8080
+2024-11-10 22:09:36 [[32minfo[39m]: Listening on 8080
+2024-11-10 22:15:08 [[32minfo[39m]: Listening on 8080
+2024-11-10 22:24:37 [[32minfo[39m]: Listening on 8080
+2024-11-10 22:25:45 [[31merror[39m]: undefined res.status(...) is not a function
+2024-11-10 22:25:46 [[32minfo[39m]: Listening on 8080
+2024-11-10 22:26:40 [[31merror[39m]: undefined res.status(...) is not a function
+2024-11-10 22:28:35 [[32minfo[39m]: Listening on 8080
+2024-11-11 00:11:08 [[32minfo[39m]: Listening on 8080
+2024-11-11 00:11:10 [[32minfo[39m]: Listening on 8080
+2024-11-11 00:28:38 [[32minfo[39m]: Listening on 8080
+2024-11-11 00:30:00 [[32minfo[39m]: Listening on 8080
+2024-11-11 00:35:10 [[32minfo[39m]: Listening on 8080
+2024-11-11 00:35:33 [[32minfo[39m]: Listening on 8080
+2024-11-11 01:28:52 [[32minfo[39m]: Listening on 8080
+2024-11-11 01:28:54 [[32minfo[39m]: Listening on 8080
+2024-11-11 01:46:57 [[31merror[39m]: _id Cast to ObjectId failed for value "nonexistentadoptionid" (type string) at path "_id" for model "Adoptions"
+2024-11-11 01:46:58 [[32minfo[39m]: Listening on 8080
+2024-11-11 01:52:14 [[31merror[39m]: _id Cast to ObjectId failed for value "nonexistentadoptionid" (type string) at path "_id" for model "Adoptions"
+2024-11-11 01:54:11 [[32minfo[39m]: Listening on 8080
+2024-11-11 01:54:21 [[31merror[39m]: _id Cast to ObjectId failed for value "nonexistentadoptionid" (type string) at path "_id" for model "Adoptions"
+2024-11-11 01:54:55 [[32minfo[39m]: Listening on 8080
+2024-11-11 01:56:42 [[31merror[39m]: _id Cast to ObjectId failed for value "nonexistentadoptionid" (type string) at path "_id" for model "Adoptions"
+2024-11-11 02:05:26 [[31merror[39m]: _id Cast to ObjectId failed for value "nonexistentadoptionid" (type string) at path "_id" for model "Adoptions"
+2024-11-11 02:08:59 [[31merror[39m]: _id Cast to ObjectId failed for value "nonexistentadoptionid" (type string) at path "_id" for model "Adoptions"
+2024-11-11 02:11:21 [[31merror[39m]: _id Cast to ObjectId failed for value "nonexistentadoptionid" (type string) at path "_id" for model "Adoptions"
+2024-11-11 02:15:24 [[31merror[39m]: _id Cast to ObjectId failed for value "nonexistentadoptionid" (type string) at path "_id" for model "Adoptions"
+2024-11-11 02:21:08 [[32minfo[39m]: Listening on 8080
+2024-11-11 02:29:01 [[32minfo[39m]: Listening on 8080
+2024-11-11 02:29:03 [[32minfo[39m]: Listening on 8080
+2024-11-11 02:31:36 [[32minfo[39m]: Listening on 8080
+2024-11-11 02:33:36 [[32minfo[39m]: Listening on 8080
+2024-11-11 02:42:43 [[31merror[39m]: _id Cast to ObjectId failed for value "673199531434e80d0305515a}" (type string) at path "_id" for model "Pets"
+2024-11-11 02:43:52 [[31merror[39m]: _id Cast to ObjectId failed for value "673199981434e80d0305516d}" (type string) at path "_id" for model "Pets"
+2024-11-11 02:49:37 [[32minfo[39m]: Listening on 8080
+2024-11-11 02:49:52 [[32minfo[39m]: Listening on 8080
+2024-11-11 02:50:14 [[32minfo[39m]: Listening on 8080
+2024-11-11 02:51:18 [[32minfo[39m]: Listening on 8080
+2024-11-11 02:52:19 [[31merror[39m]: _id Cast to ObjectId failed for value "67319b937767b7af5d0a2ad2}" (type string) at path "_id" for model "Pets"
+2024-11-11 02:53:58 [[31merror[39m]: _id Cast to ObjectId failed for value "67319bf67767b7af5d0a2ae5}" (type string) at path "_id" for model "Pets"
+2024-11-11 02:53:58 [[31merror[39m]: undefined customError is not defined
+2024-11-11 02:53:58 [[31merror[39m]: _id Cast to ObjectId failed for value "nonexistentadoptionid" (type string) at path "_id" for model "Adoptions"
+2024-11-11 03:02:25 [[31merror[39m]: _id Cast to ObjectId failed for value "67319df17767b7af5d0a2afa}" (type string) at path "_id" for model "Pets"
+2024-11-11 03:02:25 [[31merror[39m]: _id Cast to ObjectId failed for value "67319df17767b7af5d0a2afa}" (type string) at path "_id" for model "Pets"
+2024-11-11 03:02:25 [[31merror[39m]: undefined customError is not defined
+2024-11-11 03:02:25 [[31merror[39m]: _id Cast to ObjectId failed for value "nonexistentadoptionid" (type string) at path "_id" for model "Adoptions"
+2024-11-11 03:03:21 [[32minfo[39m]: Listening on 8080
+2024-11-11 03:03:34 [[31merror[39m]: _id Cast to ObjectId failed for value "67319e36292a1cbcf3713606}" (type string) at path "_id" for model "Pets"
+2024-11-11 03:03:34 [[31merror[39m]: _id Cast to ObjectId failed for value "67319e36292a1cbcf3713606}" (type string) at path "_id" for model "Pets"
+2024-11-11 03:03:34 [[31merror[39m]: undefined customError is not defined
+2024-11-11 03:03:34 [[31merror[39m]: _id Cast to ObjectId failed for value "nonexistentadoptionid" (type string) at path "_id" for model "Adoptions"
+2024-11-11 03:06:17 [[31merror[39m]: _id Cast to ObjectId failed for value "67319ed9292a1cbcf371361c}" (type string) at path "_id" for model "Pets"
+2024-11-11 03:06:17 [[31merror[39m]: undefined customError is not defined
+2024-11-11 03:06:17 [[31merror[39m]: _id Cast to ObjectId failed for value "nonexistentadoptionid" (type string) at path "_id" for model "Adoptions"
+2024-11-11 03:08:04 [[31merror[39m]: _id Cast to ObjectId failed for value "67319f44292a1cbcf3713637}" (type string) at path "_id" for model "Pets"
+2024-11-11 03:08:04 [[31merror[39m]: undefined customError is not defined
+2024-11-11 03:08:04 [[31merror[39m]: _id Cast to ObjectId failed for value "nonexistentadoptionid" (type string) at path "_id" for model "Adoptions"
+2024-11-11 03:09:25 [[31merror[39m]: _id Cast to ObjectId failed for value "67319f94292a1cbcf3713652}" (type string) at path "_id" for model "Pets"
+2024-11-11 03:09:25 [[31merror[39m]: undefined customError is not defined
+2024-11-11 03:09:25 [[31merror[39m]: _id Cast to ObjectId failed for value "nonexistentadoptionid" (type string) at path "_id" for model "Adoptions"
+2024-11-11 03:14:32 [[32minfo[39m]: Listening on 8080
+2024-11-11 03:14:43 [[32minfo[39m]: Listening on 8080
+2024-11-11 03:14:52 [[31merror[39m]: undefined customError is not defined
+2024-11-11 03:14:52 [[31merror[39m]: _id Cast to ObjectId failed for value "nonexistentadoptionid" (type string) at path "_id" for model "Adoptions"
+2024-11-11 03:15:31 [[31merror[39m]: undefined customError is not defined
+2024-11-11 03:15:31 [[31merror[39m]: _id Cast to ObjectId failed for value "nonexistentadoptionid" (type string) at path "_id" for model "Adoptions"
+2024-11-11 03:17:00 [[31merror[39m]: undefined customError is not defined
+2024-11-11 03:17:00 [[31merror[39m]: _id Cast to ObjectId failed for value "nonexistentadoptionid" (type string) at path "_id" for model "Adoptions"
+2024-11-11 03:19:01 [[31merror[39m]: _id Cast to ObjectId failed for value "nonexistentadoptionid" (type string) at path "_id" for model "Adoptions"
+2024-11-11 03:20:12 [[31merror[39m]: _id Cast to ObjectId failed for value "nonexistentadoptionid" (type string) at path "_id" for model "Adoptions"
+2024-11-11 03:22:50 [[31merror[39m]: _id Cast to ObjectId failed for value "nonexistentadoptionid" (type string) at path "_id" for model "Adoptions"
+2024-11-11 03:25:51 [[32minfo[39m]: Listening on 8080
+2024-11-11 03:28:09 [[31merror[39m]: _id Cast to ObjectId failed for value "nonexistentadoptionid" (type string) at path "_id" for model "Adoptions"
+2024-11-11 03:30:17 [[32minfo[39m]: Listening on 8080
+2024-11-11 03:30:18 [[32minfo[39m]: Listening on 8080
+2024-11-11 03:31:03 [[32minfo[39m]: Listening on 8080
+2024-11-11 03:31:13 [[31merror[39m]: _id Cast to ObjectId failed for value "nonexistentadoptionid" (type string) at path "_id" for model "Adoptions"
+2024-11-11 03:36:56 [[32minfo[39m]: Listening on 8080
+2024-11-11 03:37:53 [[32minfo[39m]: Listening on 8080
+2024-11-11 03:38:19 [[31merror[39m]: _id Cast to ObjectId failed for value "nonexistentadoptionid" (type string) at path "_id" for model "Adoptions"
+2024-11-11 03:44:06 [[32minfo[39m]: Listening on 8080
+2024-11-11 03:47:55 [[32minfo[39m]: Listening on 8080
+2024-11-11 03:48:10 [[32minfo[39m]: Listening on 8080
+2024-11-11 03:52:38 [[32minfo[39m]: Listening on 8080
+2024-11-11 03:52:51 [[32minfo[39m]: Listening on 8080
+2024-11-11 03:53:00 [[32minfo[39m]: Listening on 8080
+2024-11-11 03:53:41 [[32minfo[39m]: Listening on 8080
+2024-11-11 03:54:09 [[32minfo[39m]: Listening on 8080
+2024-11-11 03:54:53 [[32minfo[39m]: Listening on 8080
+2024-11-11 03:58:07 [[32minfo[39m]: Listening on 8080
+2024-11-11 03:59:01 [[32minfo[39m]: Listening on 8080
+2024-11-11 04:01:21 [[32minfo[39m]: Listening on 8080
+2024-11-11 04:01:25 [[32minfo[39m]: Listening on 8080
+2024-11-11 04:03:49 [[32minfo[39m]: Listening on 8080
+2024-11-11 04:06:02 [[32minfo[39m]: Listening on 8080
+2024-11-11 04:11:09 [[32minfo[39m]: Listening on 8080
+2024-11-11 04:13:37 [[32minfo[39m]: Listening on 8080
+2024-11-11 04:14:12 [[32minfo[39m]: Listening on 8080
+2024-11-11 04:14:50 [[32minfo[39m]: Listening on 8080
+2024-11-11 04:15:44 [[32minfo[39m]: Listening on 8080
+2024-11-11 04:17:32 [[32minfo[39m]: Listening on 8080
+2024-11-11 04:17:54 [[32minfo[39m]: Listening on 8080
+2024-11-11 04:20:34 [[32minfo[39m]: Listening on 8080
+2024-11-11 04:21:02 [[32minfo[39m]: Listening on 8080
+2024-11-11 04:23:10 [[32minfo[39m]: Listening on 8080
+2024-11-11 04:24:15 [[32minfo[39m]: Listening on 8080
+2024-11-11 14:08:51 [[32minfo[39m]: Listening on 8080
+2024-11-11 14:09:15 [[32minfo[39m]: Listening on 8080
+2024-11-11 18:07:33 [[32minfo[39m]: Listening on 8080
+2024-11-11 18:07:35 [[32minfo[39m]: Listening on 8080
+2024-11-11 18:17:07 [[32minfo[39m]: Listening on 8080
+2024-11-11 18:17:09 [[32minfo[39m]: Listening on 8080
+2024-11-11 22:50:54 [[32minfo[39m]: Listening on 8080
+2024-11-11 22:50:56 [[32minfo[39m]: Listening on 8080
+2024-11-11 22:58:53 [[32minfo[39m]: Listening on 8080
+2024-11-11 23:01:13 [[32minfo[39m]: Listening on 8080
+2024-11-11 23:02:18 [[32minfo[39m]: Listening on 8080
+2024-11-11 23:18:45 [[32minfo[39m]: Listening on 8080
+2024-11-11 23:25:05 [[32minfo[39m]: Listening on 8080
+2024-11-12 00:03:35 [[32minfo[39m]: Listening on 8080
+2024-11-12 00:03:38 [[32minfo[39m]: Listening on 8080
+2024-11-12 00:05:39 [[32minfo[39m]: Listening on 8080
+2024-11-12 00:08:08 [[32minfo[39m]: Listening on 8080
+2024-11-12 00:09:50 [[32minfo[39m]: Listening on 8080
+2024-11-12 00:10:38 [[32minfo[39m]: Listening on 8080
+2024-11-12 19:17:44 [[32minfo[39m]: Listening on 8080
+2024-11-12 19:17:46 [[32minfo[39m]: Listening on 8080
+2024-11-12 19:22:44 [[32minfo[39m]: Listening on 8080
+2024-11-12 19:22:57 [[32minfo[39m]: Listening on 8080
+2024-11-12 19:23:08 [[32minfo[39m]: Listening on 8080
+2024-11-12 20:03:27 [[32minfo[39m]: Listening on 8080
+2024-11-12 20:15:00 [[32minfo[39m]: Listening on 8080
+2024-11-12 20:18:14 [[32minfo[39m]: Listening on 8080
+2024-11-12 20:18:16 [[32minfo[39m]: Listening on 8080
+2024-11-12 20:58:34 [[32minfo[39m]: Listening on 8080
+2024-11-12 20:58:52 [[32minfo[39m]: Listening on 8080
+2024-11-12 21:08:40 [[32minfo[39m]: Listening on 8080
+2024-11-12 21:09:32 [[32minfo[39m]: Listening on 8080
+2024-11-12 21:12:35 [[32minfo[39m]: Listening on 8080
+2024-11-12 21:14:02 [[32minfo[39m]: Listening on 8080
+2024-11-12 21:18:33 [[32minfo[39m]: Listening on 8080
+2024-11-12 21:18:36 [[32minfo[39m]: Listening on 8080
+2024-11-12 21:21:12 [[32minfo[39m]: Listening on 8080
+2024-11-12 21:21:59 [[31merror[39m]: _id Cast to ObjectId failed for value "7g8e9f4s2f1v6x5o8a3d7j52" (type string) at path "_id" for model "Pets"
+2024-11-12 21:23:19 [[32minfo[39m]: Listening on 8080
+2024-11-12 21:25:53 [[32minfo[39m]: Listening on 8080
+2024-11-12 21:27:34 [[32minfo[39m]: Listening on 8080
+2024-11-12 21:29:07 [[31merror[39m]: undefined Expected double-quoted property name in JSON at position 27
+2024-11-12 21:29:38 [[31merror[39m]: undefined Expected double-quoted property name in JSON at position 27
+2024-11-12 21:31:17 [[32minfo[39m]: Listening on 8080
+2024-11-13 00:05:30 [[32minfo[39m]: Listening on 8080
+2024-11-13 00:05:32 [[32minfo[39m]: Listening on 8080
+2024-11-13 00:09:54 [[32minfo[39m]: Listening on 8080
+2024-11-13 00:11:53 [[32minfo[39m]: Listening on 8080
+2024-11-13 01:04:08 [[32minfo[39m]: Listening on 8080
+2024-11-13 01:18:00 [[32minfo[39m]: Listening on 8080
+2024-11-13 01:37:46 [[32minfo[39m]: Listening on 8080
+2024-11-13 01:47:51 [[32minfo[39m]: Listening on 8080
+2024-11-13 01:49:14 [[32minfo[39m]: Listening on 8080
+2024-11-13 02:05:42 [[32minfo[39m]: Listening on 8080
+2024-11-13 04:30:20 [[32minfo[39m]: Listening on 8080
+2024-11-13 15:58:38 [[32minfo[39m]: Listening on 8080
+2024-11-13 16:25:48 [[32minfo[39m]: Listening on 8080
+2024-11-13 16:26:19 [[32minfo[39m]: Listening on 8080
+2024-11-13 16:29:45 [[32minfo[39m]: Listening on 8080
+2024-11-13 16:29:52 [[32minfo[39m]: Listening on 8080
+2024-11-13 18:21:31 [[32minfo[39m]: Listening on 8080
+2024-11-13 18:21:33 [[32minfo[39m]: Listening on 8080
+2024-11-13 23:01:36 [[32minfo[39m]: Listening on 8080
+2024-11-13 23:02:16 [[32minfo[39m]: Listening on 8080
+2024-11-13 23:21:36 [[32minfo[39m]: Listening on 8080
+2024-11-13 23:27:20 [[32minfo[39m]: Listening on 8080
+2024-11-13 23:31:35 [[32minfo[39m]: Listening on 8080
+2024-11-13 23:32:35 [[32minfo[39m]: Listening on 8080
+2024-11-13 23:35:44 [[32minfo[39m]: Listening on 8080
+2024-11-13 23:35:51 [[32minfo[39m]: Listening on 8080
+2024-11-13 23:38:33 [[32minfo[39m]: Listening on 8080
+2024-11-13 23:40:24 [[32minfo[39m]: Listening on 8080
+2024-11-13 23:40:43 [[32minfo[39m]: Listening on 8080
+2024-11-13 23:43:21 [[32minfo[39m]: Listening on 8080
+2024-11-13 23:43:32 [[32minfo[39m]: Listening on 8080
+2024-11-13 23:43:40 [[32minfo[39m]: Listening on 8080
+2024-11-13 23:46:21 [[32minfo[39m]: Listening on 8080
+2024-11-13 23:47:59 [[32minfo[39m]: Listening on 8080
+2024-11-13 23:48:13 [[32minfo[39m]: Listening on 8080
+2024-11-14 01:02:07 [[32minfo[39m]: Listening on 8080
+2024-11-14 01:02:09 [[32minfo[39m]: Listening on 8080
+2024-11-14 01:03:21 [[32minfo[39m]: Listening on 8080
+2024-11-14 01:03:38 [[32minfo[39m]: Listening on 8080
+2024-11-14 01:06:50 [[32minfo[39m]: Listening on 8080
+2024-11-14 01:07:45 [[32minfo[39m]: Listening on 8080
+2024-11-14 01:07:52 [[32minfo[39m]: Listening on 8080
+2024-11-14 01:09:43 [[32minfo[39m]: Listening on 8080
+2024-11-14 01:10:11 [[32minfo[39m]: Listening on 8080
+2024-11-14 01:14:28 [[32minfo[39m]: Listening on 8080
+2024-11-14 01:14:36 [[32minfo[39m]: Listening on 8080
+2024-11-14 01:14:47 [[32minfo[39m]: Listening on 8080
+2024-11-14 01:18:37 [[32minfo[39m]: Listening on 8080
+2024-11-14 01:22:37 [[32minfo[39m]: Listening on 8080
+2024-11-14 01:22:46 [[32minfo[39m]: Listening on 8080
+2024-11-14 01:30:21 [[32minfo[39m]: Listening on 8080
+2024-11-14 01:40:40 [[32minfo[39m]: Listening on 8080
+2024-11-14 01:42:34 [[31merror[39m]: undefined Expected double-quoted property name in JSON at position 26
+2024-11-14 01:47:15 [[32minfo[39m]: Listening on 8080
+2024-11-14 01:48:12 [[32minfo[39m]: Listening on 8080
+2024-11-14 01:48:25 [[32minfo[39m]: Listening on 8080
+2024-11-14 01:50:25 [[32minfo[39m]: Listening on 8080
+2024-11-14 01:50:33 [[32minfo[39m]: Listening on 8080
+2024-11-14 01:51:50 [[32minfo[39m]: Listening on 8080
+2024-11-14 01:51:59 [[32minfo[39m]: Listening on 8080
+2024-11-14 01:57:30 [[32minfo[39m]: Listening on 8080
+2024-11-14 01:58:17 [[32minfo[39m]: Listening on 8080
+2024-11-14 01:58:27 [[32minfo[39m]: Listening on 8080
+2024-11-14 02:00:56 [[32minfo[39m]: Listening on 8080
+2024-11-14 02:04:11 [[32minfo[39m]: Listening on 8080
+2024-11-14 02:04:13 [[32minfo[39m]: Listening on 8080
+2024-11-14 02:08:45 [[32minfo[39m]: Listening on 8080
+2024-11-14 02:08:54 [[32minfo[39m]: Listening on 8080
+2024-11-14 02:12:24 [[32minfo[39m]: Listening on 8080
+2024-11-14 02:13:11 [[32minfo[39m]: Listening on 8080
+2024-11-14 02:13:18 [[32minfo[39m]: Listening on 8080
+2024-11-14 02:14:52 [[32minfo[39m]: Listening on 8080
+2024-11-14 02:15:00 [[32minfo[39m]: Listening on 8080
+2024-11-14 02:17:27 [[32minfo[39m]: Listening on 8080
+2024-11-14 02:18:04 [[32minfo[39m]: Listening on 8080
+2024-11-14 02:19:07 [[32minfo[39m]: Listening on 8080
+2024-11-14 02:19:17 [[32minfo[39m]: Listening on 8080
+2024-11-14 02:25:24 [[32minfo[39m]: Listening on 8080
+2024-11-14 02:25:30 [[32minfo[39m]: Listening on 8080
+2024-11-14 02:26:29 [[32minfo[39m]: Listening on 8080
+2024-11-14 02:26:36 [[32minfo[39m]: Listening on 8080
+2024-11-14 02:32:44 [[32minfo[39m]: Listening on 8080
+2024-11-14 02:33:14 [[32minfo[39m]: Listening on 8080
+2024-11-14 02:33:35 [[32minfo[39m]: Listening on 8080
+2024-11-14 02:34:03 [[32minfo[39m]: Listening on 8080
+2024-11-14 02:39:04 [[32minfo[39m]: Listening on 8080
+2024-11-14 02:40:53 [[32minfo[39m]: Listening on 8080
+2024-11-14 02:41:48 [[32minfo[39m]: Listening on 8080
+2024-11-14 02:42:25 [[32minfo[39m]: Listening on 8080
+2024-11-14 02:44:13 [[32minfo[39m]: Listening on 8080
+2024-11-14 02:45:12 [[32minfo[39m]: Listening on 8080
+2024-11-14 02:49:05 [[32minfo[39m]: Listening on 8080
+2024-11-14 02:51:30 [[32minfo[39m]: Listening on 8080
+2024-11-14 02:55:25 [[32minfo[39m]: Listening on 8080
+2024-11-14 02:57:31 [[32minfo[39m]: Listening on 8080
+2024-11-14 02:58:07 [[32minfo[39m]: Listening on 8080
+2024-11-14 03:03:34 [[32minfo[39m]: Listening on 8080
+2024-11-14 03:05:51 [[32minfo[39m]: Listening on 8080
+2024-11-14 03:05:53 [[32minfo[39m]: Listening on 8080
+2024-11-14 03:14:42 [[32minfo[39m]: Listening on 8080
+2024-11-14 03:14:56 [[31merror[39m]: undefined Expected ',' or '}' after property value in JSON at position 20
+2024-11-14 03:14:57 [[31merror[39m]: undefined Expected ',' or '}' after property value in JSON at position 20
+2024-11-14 03:19:00 [[32minfo[39m]: Listening on 8080
+2024-11-14 03:19:39 [[32minfo[39m]: Listening on 8080
+2024-11-14 03:20:08 [[32minfo[39m]: Listening on 8080
+2024-11-14 03:37:30 [[32minfo[39m]: Listening on 8080
+2024-11-14 03:50:47 [[32minfo[39m]: Listening on 8080
+2024-11-14 03:52:05 [[32minfo[39m]: Listening on 8080
+2024-11-14 03:53:08 [[32minfo[39m]: Listening on 8080
+2024-11-14 05:07:50 [[32minfo[39m]: Listening on 8080
+2024-11-14 05:08:09 [[32minfo[39m]: Listening on 8080

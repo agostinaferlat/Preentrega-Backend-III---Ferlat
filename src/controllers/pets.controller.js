@@ -1,5 +1,6 @@
 import PetDTO from "../dto/Pet.dto.js";
 import __dirname from "../utils/index.js";
+import mongoose from "mongoose";
 
 import { PetServices } from "../services/pet.services.js";
 
@@ -11,7 +12,7 @@ export class PetsController {
   getAllPets = async (req, res, next) => {
     try {
       const pets = await this.petService.getAll();
-      res.send({ status: "success", payload: pets });
+      res.status(200).json({ status: "success", payload: pets });
     } catch (error) {
       next(error);
     }
@@ -23,30 +24,77 @@ export class PetsController {
       if (!name || !species || !birthDate) return res.status(400).send({ status: "error", error: "Incomplete values" });
       const pet = PetDTO.getPetInputFrom({ name, species, birthDate });
       const result = await this.petService.create(pet);
-      res.send({ status: "success", payload: result });
+      res.status(201).json({ status: "success", payload: result });
     } catch (error) {
       next(error);
     }
   };
 
-  updatePet = async (req, res, next) => {
+  updatePet = async (req, res) => {
     try {
-      const petUpdateBody = req.body;
       const petId = req.params.pid;
-      const result = await this.petService.update(petId, petUpdateBody);
-      res.send({ status: "success", message: "pet updated" });
+      const updateData = req.body;
+
+  
+      if (!mongoose.Types.ObjectId.isValid(petId)) {
+        return res.status(400).send({
+          status: "error",
+          error: "Invalid pet ID format",
+        });
+      }
+  
+      const pet = await this.petService.getById(petId);
+  
+      const updatedPet = await this.petService.update(petId, updateData);
+
+      if (!updatedPet) {
+        return res.status(404).send({
+          status: "error",
+          error: "Pet not found",
+        });
+      }
+  
+      return res.status(200).send({
+        status: "success",
+        message: "Pet updated",
+        payload: updatedPet,
+      });
     } catch (error) {
-      next(error);
+      console.error("Error updating pet:", error.message);
+      return res.status(500).send({
+        status: "error",
+        error: "Internal server error",
+      });
     }
   };
 
-  deletePet = async (req, res, next) => {
+  deletePet = async (req, res) => {
     try {
       const petId = req.params.pid;
+  
+      if (!mongoose.Types.ObjectId.isValid(petId)) {
+        return res.status(400).send({
+          status: "error",
+          error: "Invalid pet ID format",
+        });
+      }
+  
       const result = await this.petService.remove(petId);
-      res.send({ status: "success", message: "pet deleted" });
-    } catch (error) {
-      next(error);
+  
+      if (!result) {
+        return res.status(404).send({  status: "error", error: "Pet not found",});
+      }
+  
+      return res.status(200).send({
+        status: "success",
+        message: "Pet deleted",
+      });
+    } catch (err) {
+      console.error(err);
+      return res.status(500).send({
+        status: "error",
+        error: "Internal server error",
+      });
     }
   };
 

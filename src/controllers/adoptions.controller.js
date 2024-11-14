@@ -4,6 +4,8 @@ import { AdoptionServices } from "../services/adoption.services.js";
 
 import { PetServices } from "../services/pet.services.js";
 
+import mongoose from "mongoose";
+
 
 export class AdoptionsController {
     constructor() {
@@ -24,10 +26,18 @@ export class AdoptionsController {
     getAdoption = async (req, res, next) => {
       try {
         const adoptionId = req.params.aid;
+
+        if (!mongoose.Types.ObjectId.isValid(adoptionId)) {
+          return res.status(400).send({ status: "error", error: "Invalid Adoption ID"});
+        }
+        
         const adoption = await this.adoptionsService.getById(adoptionId);
+      
         if (!adoption) return res.status(404).send({ status: "error", error: "Adoption not found" });
+      
         res.send({ status: "success", payload: adoption });
-      } catch (error) {
+      } catch (error) { 
+        console.error("Error in getAdoption:", error);
         next(error);
       }
     };
@@ -37,8 +47,11 @@ export class AdoptionsController {
         const { uid, pid } = req.params;
         
         const user = await this.usersService.getById(uid);
-        
+        if (!user) return res.status(404).send({ status: "error", error: "User not found" });
+
         const pet = await this.petsService.getById(pid);
+        if (!pet) return res.status(404).send({ status: "error", error: "Pet not found" });
+
         
         if (pet.adopted) return res.status(400).send({ status: "error", error: "Pet has already been adopted" });
         
@@ -46,11 +59,27 @@ export class AdoptionsController {
         await this.usersService.update(user._id, { pets: user.pets });
         await this.petsService.update(pet._id, { adopted: true, owner: user._id });
         
-        await this.adoptionsService.create({ owner: user._id, pet: pet._id });
+        const adoption = await this.adoptionsService.create({ owner: user._id, pet: pet._id });
         
-        res.send({ status: "success", message: "Pet adopted" });
+        res.send({ status: "success", message: "Pet adopted", payload: adoption });
       } catch (error) {
         next(error);
       }
     };
-  }
+  
+
+    deleteAdoption = async (req, res, next) => {
+      try{
+        const adoptionId = req.params.aid;
+        const result = await this.adoptionsService.remove(adoptionId);
+
+        if (result === "ok"){
+          return res.status(200).send({ status: "success", message: "Adoption deleted"});  
+        } else{
+          return res.status(404).send({ status: "error", error: "Adoption not found"});
+        }
+      } catch (error) {
+        next(error);
+      };
+    };
+  };

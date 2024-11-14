@@ -11,7 +11,7 @@ export class SessionsController {
     register = async (req, res, next) => {
       try {
         const { first_name, last_name, email, password } = req.body;
-        console.log(this.userServices);
+        
         if (!first_name || !last_name || !email || !password)
           return res.status(400).send({ status: "error", error: "Incomplete values" });
         const exists = await this.userServices.getUserByEmail(email);
@@ -24,7 +24,7 @@ export class SessionsController {
           password: hashedPassword,
         };
         let result = await this.userServices.create(user);
-        res.send({ status: "success", payload: result._id });
+        res.status(201).json({ status: "success", payload: result });
       } catch (error) {
         next(error);
       }

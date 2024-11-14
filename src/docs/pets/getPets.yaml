@@ -1,0 +1,51 @@
+paths:
+  /api/pets:
+    get:
+      summary: Get pets
+      description:  Gets all pets.
+      tags:
+        - Pets
+      responses:
+        200:
+          description: Returns an array of pets   
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Pets"
+
+components:
+  schemas:
+    Pets:
+      type: array
+      items:
+        type: object
+        properties:
+          _id: 
+            type: string
+            description: Pet ID (MongoDB ObjectId)
+          name:
+            type: string
+            description: Pet name
+          species:
+            type: string
+            description: Pet species
+          owner:
+            type: string
+            description: Owner ID (MongoDB ObjectId)
+          birthDate:
+            type: string
+            description: Date of birth
+          adopted:
+            type: boolean
+            description: Adopted or not adopted
+          image:
+            type: string
+            description: Pet image
+      example:
+        _id: 67357cdc04969081516315ce
+        name: Fluffy
+        species: Perro de tres cabezas
+        adopted: false
+        owner: 8e7g2f9s5j2a4v5c1m8g8z2w
+        image: https://helenmcveigh.co.uk/wp-content/uploads/2020/02/Fluffy_HP1-1024x427.png
+        birthDate: 03/04/2000            

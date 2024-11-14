@@ -1,0 +1,65 @@
+components:
+  schemas:
+    Pets:
+      type: array
+      items:
+        type: object
+        properties:
+          _id: 
+            type: string
+            description: Pet ID (MongoDB ObjectId)
+          name:
+            type: string
+            description: Pet name
+          species:
+            type: string
+            description: Pet species
+          owner:
+            type: string
+            description: Owner ID (MongoDB ObjectId)
+          birthDate: 
+            type: string
+            description: Date of birth
+          adopted:
+            type: boolean
+            description: Adopted or not adopted
+          image:
+            type: string
+            description: Pet image
+      example:
+        _id: 5f7e9f9b5f7e9f9b5f7e9f9b
+        name: Crookshanks
+        species: Cat
+        adopted: false
+        owner: 5f7e9f9b5f7e9f9b5f7e9f9b
+        image: https://i.pinimg.com/736x/b8/e6/84/b8e6849745bee377e2063f6dfdb7aa48.jpg
+        birthDate: 12-30-2000  
+  requestBody:
+    petBody:
+      type: object
+      properties:
+        name:
+          type: string
+          description: Pet name
+        species:
+          type: string
+          description: Pet species
+        adopted:
+          type: boolean
+          description: Adopted or not adopted
+        owner:
+          type: ObjectId
+          description: Owner ID
+        image:
+          type: string
+          description: Pet image
+        birthDate:
+            type: string
+            description: Date of birth
+      example:
+        name: Fluffy
+        species: Perro de tres cabezas
+        adopted: false
+        owner: 8e7g2f9s5j2a4v5c1m8g8z2w
+        image: https://helenmcveigh.co.uk/wp-content/uploads/2020/02/Fluffy_HP1-1024x427.png
+        birthDate: 04/03/2000

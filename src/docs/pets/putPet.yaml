@@ -1,0 +1,55 @@
+paths:
+  /api/pets/{pid}:
+    put:
+      summary: Update pet
+      description: Updates a pet's profile.
+      tags:
+        - Pets
+      parameters:
+        - in: path
+          name: pid
+          required: true
+          description: Pet ID
+          schema:
+            type: string
+      requestBody:
+        required: true
+        description: Pet data
+        content:
+            application/json:
+              schema:
+                $ref: "#/components/requestBody/petBody"
+      responses:
+        200:
+          description: Update pet
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Pets"
+        400:
+          description: Invalid pet ID format or request body
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    example: "error"
+                  error:
+                    type: string
+                    example: "Invalid pet ID format"
+        404:
+          description: Pet not found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    example: "error"
+                  error:
+                    type: string
+                    example: "Pet not found"
+

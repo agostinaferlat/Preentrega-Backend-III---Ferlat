@@ -1,0 +1,54 @@
+paths:
+  /api/users/{uid}:
+    delete:
+      summary: Delete User
+      description: Deletes a user by searching it through ID.
+      tags:
+        - Users
+      parameters:
+        - in: path
+          name: uid
+          required: true
+          description: User ID (MongoDB ObjectId)
+          schema:
+            type: string
+      responses:
+        200:
+          description: User successfully deleted
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    example: "success"
+                  message:
+                    type: string
+                    example: "User deleted"
+        404:
+          description: User not found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    example: "error"
+                  error:
+                    type: string
+                    example: "User not found"
+        400:
+          description: Invalid user ID format
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    example: "error"
+                  error:
+                    type: string
+                    example: "Invalid user ID format"

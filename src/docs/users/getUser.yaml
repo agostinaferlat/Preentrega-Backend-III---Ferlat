@@ -1,0 +1,83 @@
+paths:
+  /api/users/{uid}:
+    get:
+      summary: Get User By ID
+      description:  Retrieves a specific user by their unique ID.
+      tags:
+        - Users
+      parameters:
+        - in: path
+          name: uid
+          required: true
+          description: User ID (MongoDB ObjectId)
+          schema:
+            type: string
+      responses:
+        200:
+          description: Returns an user by its ID.  
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/User"
+        404:
+          description: User not found.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    example: "error"
+                  error:
+                    type: string
+                    example: "User not found"          
+        400:
+          description: Invalid user format.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    example: "error"
+                  error:
+                    type: string
+                    example: "Invalid ID"
+
+components:
+  schemas:
+    User:
+      type: object
+      properties:
+        _id: 
+          type: string
+          description: User ID (MongoDB ObjectId)
+        first_name:
+          type: string
+          description: User's name
+        last_name:
+          type: string
+          description: User's last name
+        email:
+          type: string
+          description: User's email
+        role:
+          type: string
+          description: User role
+        pets:
+          type: array
+          items:
+            type: string
+            description: Pet ID (MongoDB ObjectId)
+      example:
+        _id: "670df92da0c99a98003cddb0"
+        first_name: "Tatiana"
+        last_name: "Rudychenka"
+        email: "tatiru@gmail.com"
+        role: "user"
+        pets:
+          - "670e0237fba5ec784eb64a89"
+
+  

@@ -1,0 +1,94 @@
+paths:
+  /api/users/{uid}:
+    put:
+      summary: Update User By ID
+      description:  Updates an existing user's profile.
+      tags:
+        - Users
+      parameters:
+        - in: path
+          name: uid
+          required: true
+          description: User ID (MongoDB ObjectId)
+          schema:
+            type: string
+      requestBody:
+        required: true
+        description: User data to update
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/requestBody/userUpdateBody"      
+      responses:
+        200:
+          description: User successfully updated.  
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    example: "success"
+                  message:
+                    type: string
+                    example: "User updated"
+                  payload:    
+                    $ref: "#/components/schemas/User"
+        404:
+          description: User not found.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    example: "error"
+                  error:
+                    type: string
+                    example: "User not found"          
+        400:
+          description: Invalid user data
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    example: "error"
+                  error:
+                    type: string
+                    example: "Invalid user data"
+components:
+  requestBody:
+    userUpdateBody:
+      type: object
+      properties:
+        first_name:
+          type: string
+          description: User's name
+        last_name:
+          type: string
+          description: User's last name
+        email:
+          type: string
+          description: User's email
+        role:
+          type: string
+          description: User role
+        pets:
+          type: array
+          items:
+            type: string
+            description: Pet ID (MongoDB ObjectId)
+      example:
+        first_name: "Tatiana"
+        last_name: "Rudychenka"
+        email: "tatiru@gmail.com"
+        role: "user"
+        pets:
+          - "670e0237fba5ec784eb64a89"
+
+  

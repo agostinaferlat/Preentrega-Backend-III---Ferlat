@@ -1,5 +1,7 @@
 import Users from "../dao/Users.dao.js";
 import { customError } from "../errors/custom.error.js";
+import mongoose from "mongoose";
+
 
 export class UserServices {
   constructor() {
@@ -10,8 +12,17 @@ export class UserServices {
     return users;
   }
   async getById(id) {
+      
+    if (!mongoose.Types.ObjectId.isValid(id)) {
+      throw customError.badRequestError(`Invalid user ID format: ${id}`);
+    }
+
     const user = await this.userDao.getBy(id);
-    if (!user) throw customError.notFoundError(`A user with ID ${id} doesn't exist`);
+
+    if (!user) {
+      throw customError.notFoundError(`A user with ID ${id} doesn't exist`);
+    }
+
     return user;
   }
 
@@ -35,8 +46,14 @@ export class UserServices {
     return user;
   }
   async remove(id) {
+    const user = await this.userDao.getBy(id);
+  
+    if (!user) {
+      return null;
+    }
+
     await this.userDao.delete(id);
-    return "ok";
+    return true;
   }
 
 }

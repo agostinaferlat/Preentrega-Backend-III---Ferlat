@@ -6,8 +6,8 @@ export default class Adoption {
         return adoptionModel.find(params);
     }
 
-    getBy = (params) =>{
-        return adoptionModel.findById(params);
+    getBy = (id) =>{
+        return adoptionModel.findById(id);
     }
 
     save = (doc) =>{

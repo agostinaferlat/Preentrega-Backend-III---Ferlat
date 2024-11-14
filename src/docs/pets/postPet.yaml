@@ -1,0 +1,24 @@
+paths:
+  /api/pets:
+    post:
+      summary: Create pet
+      description: Creates a profile for a new pet.
+      tags:
+        - Pets  
+      requestBody:
+        required: true
+        description: Pet data
+        content:
+            application/json:
+              schema:
+                $ref: "#/components/requestBody/petBody"
+      responses:
+        201:
+          description: New pet
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Pets"
+
+
+

@@ -9,8 +9,9 @@ export class AdoptionServices {
     return adoptions;
   }
   async getById(id) {
+    
     const adoption = await this.adoptionDao.getBy(id);
-    if (!adoption) throw customError.notFoundError(`Adoption id ${id} not found`);
+    if (!adoption) throw customError.notFoundError(`Adoption ID ${id} not found`); 
     return adoption;
   }
 
@@ -25,7 +26,12 @@ export class AdoptionServices {
   }
 
   async remove(id) {
-    await this.adoptionDao.delete(id);
+    const result = await this.adoptionDao.delete(id);
+
+    if (!result) {
+      throw new Error ("Adoption not found");
+    }
+
     return "ok";
   }
 }
